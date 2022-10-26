@@ -1,0 +1,49 @@
+.header-container {
+    background-color:darkcyan ;
+    color: azure;
+    font-size: x-large;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    flex:auto;
+}
+
+.header-profile {
+    background-color:darkcyan ;
+    color: azure;
+    font-size: x-large;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    flex:auto;
+    align-items: center;
+}
+
+.profile-img {
+    max-width: 20%;
+    max-height: 100px;   
+    margin-left: 2%;
+    clip-path: circle(25px at center);
+
+}
+
+.button {
+    max-height: 20px;
+    margin: auto;
+}
+
+.profile-container {
+    margin: auto;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: x-large;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    padding: 3%;
+    margin: 0 auto;
+}
